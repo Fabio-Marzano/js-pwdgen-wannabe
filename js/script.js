@@ -11,5 +11,8 @@ let color = prompt('Inserisci il tuo colore preferito');
 console.log(color);
 
 //CREO UNA VARIABILE A CUI ASSEGNO CONCATENAZIONE DEI VALORI INSERITI PRECEDENTEMENTE CON IL VALORE 23//
-let string = '${first_name}${last_name}${color}23';
+let string = `${first_name}${last_name}${color}23`;
 console.log(string);
+
+//RECUPERO ELEMENTO IN HTML DELLA STRINGA GENERATA E GLI ATTRIBUISCO IL VALORE//
+document.getElementById('ncc').innerText = string;
