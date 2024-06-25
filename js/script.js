@@ -9,3 +9,7 @@ console.log(last_name);
 //CONSENTO INSERIMENTO DEL COLORE DA PARTE DELL'UTENTE//
 let color = prompt('Inserisci il tuo colore preferito');
 console.log(color);
+
+//CREO UNA VARIABILE A CUI ASSEGNO CONCATENAZIONE DEI VALORI INSERITI PRECEDENTEMENTE CON IL VALORE 23//
+let string = '${first_name}${last_name}${color}23';
+console.log(string);
